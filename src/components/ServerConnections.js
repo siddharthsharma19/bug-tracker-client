@@ -1,6 +1,5 @@
 const axios = require("axios").default;
-const URL = "https://bug-tracker-sever.herokuapp.com";
-
+const URL = "https://bug-tracker-cs9g-egkwwfq2t-sharmasiddharth017-gmailcom.vercel.app"
 export const registerUser = async (name, username, userEmail, userPassword) => {
   let response;
   try {
